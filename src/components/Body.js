@@ -22,6 +22,15 @@ const Body = () => {
             </div>
         </div>
 
+        {/* Картка Yelyzaveta Pryshliak */}
+        <div style={styles.card}>
+            <img src={"/pryshliak.jpg"} alt="Yelyzaveta Pryshliak" style={styles.photo} />
+            <div style={styles.textContainer}>
+            <h2 style={styles.name}>Yelyzaveta Pryshliak</h2>
+            <p style={styles.position}>Business Analyst</p>
+            </div>
+        </div>
+
     </main>
   );
 };
