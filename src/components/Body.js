@@ -13,6 +13,15 @@ const Body = () => {
             </div>
         </div>
 
+        {/* Картка Vitaiy Yanchyk */}
+        <div style={styles.card}>
+            <img src={"/photo_Vitaliy_Yanchyk.jpg"} alt="Vitaliy Yanchyk" style={styles.photo} />
+            <div style={styles.textContainer}>
+            <h2 style={styles.name}>Vitaliy Yanchyk</h2>
+            <p style={styles.position}>Developer</p>
+            </div>
+        </div>
+
     </main>
   );
 };
