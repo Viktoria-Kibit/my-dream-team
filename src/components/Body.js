@@ -4,32 +4,40 @@ const Body = () => {
   return (
     <main style={styles.body}>
 
-        {/* Картка John Doe */}
-        <div style={styles.card}>
-            <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
-            <div style={styles.textContainer}>
-            <h2 style={styles.name}>John Doe</h2>
-            <p style={styles.position}>Software engineer</p>
-            </div>
+      {/* Картка John Doe */}
+      <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>John Doe</h2>
+          <p style={styles.position}>Software engineer</p>
         </div>
+      </div>
 
-        {/* Картка Vitaiy Yanchyk */}
-        <div style={styles.card}>
-            <img src={"/photo_Vitaliy_Yanchyk.jpg"} alt="Vitaliy Yanchyk" style={styles.photo} />
-            <div style={styles.textContainer}>
-            <h2 style={styles.name}>Vitaliy Yanchyk</h2>
-            <p style={styles.position}>Developer</p>
-            </div>
+      {/* Картка Vitaiy Yanchyk */}
+      <div style={styles.card}>
+        <img src={"/photo_Vitaliy_Yanchyk.jpg"} alt="Vitaliy Yanchyk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Vitaliy Yanchyk</h2>
+          <p style={styles.position}>Developer</p>
         </div>
+      </div>
 
-        {/* Картка Yelyzaveta Pryshliak */}
-        <div style={styles.card}>
-            <img src={"/pryshliak.jpg"} alt="Yelyzaveta Pryshliak" style={styles.photo} />
-            <div style={styles.textContainer}>
-            <h2 style={styles.name}>Yelyzaveta Pryshliak</h2>
-            <p style={styles.position}>Business Analyst</p>
-            </div>
+      {/* Картка Yelyzaveta Pryshliak */}
+      <div style={styles.card}>
+        <img src={"/pryshliak.jpg"} alt="Yelyzaveta Pryshliak" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Yelyzaveta Pryshliak</h2>
+          <p style={styles.position}>Business Analyst</p>
         </div>
+      </div>
+      {/* Картка Karachun Yana */}
+      <div style={styles.card}>
+        <img src={"/KarachunYana.png"} alt="Karachun Yana" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Karachun Yana</h2>
+          <p style={styles.position}>QA</p>
+        </div>
+      </div>
 
     </main>
   );
