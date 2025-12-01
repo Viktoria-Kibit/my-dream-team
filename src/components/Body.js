@@ -38,7 +38,14 @@ const Body = () => {
           <p style={styles.position}>QA</p>
         </div>
       </div>
-
+{/* Картка Kachmar Denys */}
+      <div style={styles.card}>
+        <img src={"/KachmarDenys.png"} alt="Kachmar Denys" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Kachmar Denys</h2>
+          <p style={styles.position}>UX/UI Designer</p>
+        </div>
+      </div>
     </main>
   );
 };
