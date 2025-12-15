@@ -39,6 +39,7 @@ const Body = () => {
           <p style={styles.position}>Business Analyst</p>
         </div>
       </div>
+
       {/* Картка Karachun Yana */}
       <div style={styles.card}>
         <img src={"/KarachunYana.png"} alt="Karachun Yana" style={styles.photo} />
@@ -47,7 +48,8 @@ const Body = () => {
           <p style={styles.position}>QA</p>
         </div>
       </div>
-{/* Картка Kachmar Denys */}
+
+      {/* Картка Kachmar Denys */}
       <div style={styles.card}>
         <img src={"/KachmarDenys.jpg"} alt="Kachmar Denys" style={styles.photo} />
         <div style={styles.textContainer}>
@@ -55,6 +57,15 @@ const Body = () => {
           <p style={styles.position}>UX/UI Designer</p>
         </div>
       </div>
+
+        {/* Test Картка */}
+        <div style={styles.card}>
+            <img src={"/avatar-default.png"} alt="Test release" style={styles.photo} />
+            <div style={styles.textContainer}>
+                <h2 style={styles.name}>Test Release</h2>
+                <p style={styles.position}>release</p>
+            </div>
+        </div>
     </main>
   );
 };
