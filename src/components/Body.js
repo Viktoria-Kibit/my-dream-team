@@ -40,6 +40,15 @@ const Body = () => {
         </div>
       </div>
 
+      {/* Картка Yelyzaveta Pryshliak v2.0 */}
+      <div style={styles.card}>
+        <img src={"/pryshliak.jpg"} alt="Pryshliak Yelyzaveta" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Yelyzaveta Pryshliak</h2>
+          <p style={styles.position}>BA</p>
+        </div>
+      </div>
+
       {/* Картка Karachun Yana */}
       <div style={styles.card}>
         <img src={"/KarachunYana.png"} alt="Karachun Yana" style={styles.photo} />
