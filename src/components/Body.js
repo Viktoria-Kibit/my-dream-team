@@ -55,6 +55,14 @@ const Body = () => {
           <p style={styles.position}>UX/UI Designer</p>
         </div>
       </div>
+      {/* Картка Anonymous */}
+      <div style={styles.card}>
+        <img src={"/anonymous.jpg"} alt="Anonymous" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Anonymous</h2>
+          <p style={styles.position}>???????</p>
+        </div>
+      </div>
     </main>
   );
 };
