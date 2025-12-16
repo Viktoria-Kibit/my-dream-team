@@ -60,7 +60,7 @@ const Body = () => {
         <img src={"/anonymous.jpg"} alt="Anonymous" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Anonymous</h2>
-          <p style={styles.position}>???????</p>
+          <p style={styles.position}>wibecoder</p>
         </div>
       </div>
     </main>
